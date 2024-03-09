@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include "EuroScopePlugIn.h"
-#include "Plugin.h"
+#include "ESSectorLoadMonitor.h"
 
 ESPlugin  * gpMyPlugin = NULL;
 

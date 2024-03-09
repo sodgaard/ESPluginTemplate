@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "Plugin.h"
+#include "ESSectorLoadMonitor.h"
 #include <string>
 
 using namespace std;

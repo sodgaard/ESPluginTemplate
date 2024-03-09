@@ -22,9 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{69e933d6-d3d7-4ef1-9ec0-8fe07ffb3e57}</ProjectGuid>
-    <RootNamespace>ESPlugin</RootNamespace>
+    <RootNamespace>ESSectorLoadMonitor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ESPlugin</ProjectName>
+    <ProjectName>ESSectorLoadMonitor</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -145,14 +145,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="ESSectorLoadMonitor.h" />
     <ClInclude Include="lib\include\EuroScopePlugIn.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DLLexport.cpp" />
-    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="ESSectorLoadMonitor.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
